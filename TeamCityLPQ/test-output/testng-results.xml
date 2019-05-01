@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Example test run" duration-ms="7837" started-at="2019-05-01T07:17:43Z" finished-at="2019-05-01T07:17:51Z">
+    <groups>
+    </groups>
+    <test name="Simple Test" duration-ms="7837" started-at="2019-05-01T07:17:43Z" finished-at="2019-05-01T07:17:51Z">
+      <class name="com.bsip.TeamCityLPQ.CreditCardForm">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.bsip.TeamCityLPQ.CreditCardForm@2aafb23c]" name="openBrowser" duration-ms="7826" started-at="2019-05-01T12:47:43Z" finished-at="2019-05-01T12:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- com.bsip.TeamCityLPQ.CreditCardForm -->
+    </test> <!-- Simple Test -->
+  </suite> <!-- Example test run -->
+</testng-results>
