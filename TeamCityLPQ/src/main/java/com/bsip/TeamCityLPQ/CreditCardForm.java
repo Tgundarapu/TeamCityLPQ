@@ -29,7 +29,7 @@ public class CreditCardForm{
 		driver = new InternetExplorerDriver(ieCaps);
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
-		Assert.assertEquals(driver.getTitle(), "LoansPQ & Xpress Accounts Login");
+		Assert.assertEquals(driver.getTitle(), "LansPQ & Xpress Accounts Login");
 		System.out.println("Meridian login page is displayed");
 		System.out.println("Passed");
 		Thread.sleep(3000);
