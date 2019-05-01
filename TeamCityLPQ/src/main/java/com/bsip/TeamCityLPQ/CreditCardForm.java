@@ -18,7 +18,7 @@ public class CreditCardForm{
 	public static WebDriver driver;
 	
 	@Test
-	public static void openBrowser() throws InterruptedException{
+	public void openBrowser() throws InterruptedException{
 		String meredianURL = "https://beta.loanspq.com/login.aspx?enc2=lqc_NUOh2_sZoFnhMuzKAiuDjxZG8O04St2Hlzvvbvs";
 		File file = new File("D:\\Thiru\\IEDriverServer32.exe");
 		System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
@@ -32,11 +32,6 @@ public class CreditCardForm{
 		Assert.assertEquals(driver.getTitle(), "LoansPQ & Xpress Accounts Login");
 		System.out.println("Meridian login page is displayed");
 		Thread.sleep(3000);
-		System.out.println("Hello");
-		driver.close();
-		System.out.println("Test");
-		System.out.println("Passed"); 
-		System.out.println("pass");
 	}
 	
 	

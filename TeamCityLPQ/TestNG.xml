@@ -2,7 +2,7 @@
 <suite name="Example test run">
   <test name="Simple Test">
     <classes>
-      <class name="com.bsip.LPQ.CreditCardForm"/>
+      <class name="com.bsip.TeamCityLPQ.CreditCardForm"/>
     </classes>
   </test>
 </suite>
