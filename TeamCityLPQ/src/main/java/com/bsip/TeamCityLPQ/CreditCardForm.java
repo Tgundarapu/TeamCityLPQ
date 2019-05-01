@@ -31,6 +31,7 @@ public class CreditCardForm{
 		Thread.sleep(2000);
 		Assert.assertEquals(driver.getTitle(), "LoansPQ & Xpress Accounts Login");
 		System.out.println("Meridian login page is displayed");
+		System.out.println("Passed");
 		Thread.sleep(3000);
 	}
 	
